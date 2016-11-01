@@ -1,0 +1,11 @@
+name: election
+dependencies:
+    - numpy
+    - pandas
+    - jupyter
+    - notebook
+    - seaborn
+    - watermark
+    - theano
+    - pip:
+        - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
