@@ -10,7 +10,7 @@ You can run this model in a web browser using Jupyter Notebooks hosted on [Binde
 
 ## Running model locally
 
-The election_pycast model requires Python 3 be installed on your system. Perhaps the easiest way to get a feature-complete version of Python on your system is to install the[Anaconda](http://continuum.io/downloads.html) distribution by Continuum Analytics. Anaconda is a completely free Python environment that includes includes almost 200 of the best Python packages for science and data analysis. Its simply a matter of downloading the installer (either graphical or command line), and running it on your system.
+The election_pycast model requires Python 3 be installed on your system. Perhaps the easiest way to get a feature-complete version of Python on your system is to install the [Anaconda](http://continuum.io/downloads.html) distribution by Continuum Analytics. Anaconda is a completely free Python environment that includes includes almost 200 of the best Python packages for science and data analysis. Its simply a matter of downloading the installer (either graphical or command line), and running it on your system.
 
 Once Python is installed, use Git to clone this repository to your machine:
 
@@ -26,7 +26,7 @@ and install everything using `conda`:
 
     conda env create -f environment.yml
     
-This will create an **environment** called `election` that includes the packages required for the course.   This environment can be enabled by running:
+This will create an **environment** called `election` that includes the packages required to run the model.   This environment can be enabled by running:
 
     source activate election
     
