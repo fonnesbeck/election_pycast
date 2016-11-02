@@ -1,5 +1,6 @@
 name: election
 dependencies:
+    - python=3.5
     - numpy
     - pandas
     - jupyter
@@ -8,6 +9,7 @@ dependencies:
     - watermark
     - theano
     - setuptools>=27.2.0
+    - us
     - pip:
         - pollster
         - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
